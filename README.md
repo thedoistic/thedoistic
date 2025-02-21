@@ -1,130 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Layout (HTML Only)</title>
 </head>
-<body 
-  bgcolor="#0f0c29"  <!-- Dark background color -->
-  text="#ffffff"     <!-- White text color -->
->
-
-<!-- Center the entire content -->
-<center>
-
-  <!-- Outer table for overall layout -->
-  <table 
-    border="2" 
-    bordercolor="#39FF14"
-    cellspacing="0" 
-    cellpadding="10" 
-    width="90%"
-  >
-    <!-- First row: The typing text (colspan=2) -->
-    <tr>
-      <td colspan="2" align="center">
-        <!-- Typing SVG -->
-        <img
-          src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=800&color=39FF14&center=true&vCenter=true&width=435&lines=Welcome+to+my+profile!+I+am+Edin."
-          alt="Typing SVG"
-        >
-      </td>
-    </tr>
-    <!-- Second row: Left = Technologies, Right = Smaller GIF -->
-    <tr>
-      <!-- LEFT COLUMN: Technologies and Tools -->
-      <td width="60%" valign="top">
-        <h2 style="color: #39FF14;">Technologies and Tools</h2>
-        <p>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="dart" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg">
-            <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="flutter" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg" alt="vite" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg">
-            <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://www.vectorlogo.zone/logos/figma/figma-icon.svg">
-            <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="42" height="42">
-          </a>
-          <a target="_blank" href="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg">
-            <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="42" height="42">
-          </a>
-        </p>
-      </td>
-      <!-- RIGHT COLUMN: Smaller GIF -->
-      <td width="40%" align="center" valign="top">
-        <img 
-          src="https://github.com/user-attachments/assets/8b12266a-513f-4b61-9a6f-d50a334746dd"
-          alt="Nft Coding GIF"
-          border="4"
-          width="250"
-        >
-      </td>
-    </tr>
-  </table>
-
-</center>
-
+<body bgcolor="#0f0c29" text="#ffffff">
+  <center>
+    <table border="0" cellspacing="0" cellpadding="10" width="90%">
+      <!-- First row: Typing SVG centered across both columns -->
+      <tr>
+        <td colspan="2" align="center">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=21&amp;pause=800&amp;color=39FF14&amp;center=true&amp;vCenter=true&amp;width=435&amp;lines=Welcome+to+my+profile!+I+am+Edin." alt="Typing SVG">
+        </td>
+      </tr>
+      <!-- Second row: Left = Technologies, Right = Smaller GIF -->
+      <tr>
+        <!-- Left column: Technologies and Tools -->
+        <td width="60%" valign="top" align="left">
+          <h2><font color="#39FF14">Technologies and Tools</font></h2>
+          <p>
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="dart" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg">
+              <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="flutter" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg" alt="vite" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg">
+              <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://www.vectorlogo.zone/logos/figma/figma-icon.svg">
+              <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="42" height="42">
+            </a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg">
+              <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="42" height="42">
+            </a>
+          </p>
+        </td>
+        <!-- Right column: Smaller GIF -->
+        <td width="40%" align="center" valign="top">
+          <img src="https://github.com/user-attachments/assets/8b12266a-513f-4b61-9a6f-d50a334746dd" alt="Nft Coding GIF" border="0" width="250">
+        </td>
+      </tr>
+    </table>
+  </center>
 </body>
 </html>
-
-
-
-
-
-
-<!--
-**thedoistic/thedoistic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
