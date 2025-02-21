@@ -1,3 +1,4 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=800&color=39FF14&center=true&vCenter=true&width=435&lines=Welcome+to+my+profile!+I+am+Edin.)](https://git.io/typing-svg)
 ## Hi there 👋
 
 <!--
