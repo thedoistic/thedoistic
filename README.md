@@ -1,6 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=800&color=39FF14&center=true&vCenter=true&width=435&lines=Welcome+to+my+profile!+I+am+Edin.)](https://git.io/typing-svg)
 
-https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3c0bHFsM2ljcGlqZWJtYTlrajg1cTRkaHp0bmN5eTM1MXAwMnQ5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/unxCGmTuBvwo2djRLA/giphy.gif
+![Nft Coding GIF](https://github.com/user-attachments/assets/8b12266a-513f-4b61-9a6f-d50a334746dd)
+
 
 <!--
 **thedoistic/thedoistic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
