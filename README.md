@@ -48,8 +48,12 @@
     </table>
    <br>
   </center>
-      <div style="align-items: center;">
-      <img src="https://github.com/thedoistic/thedoistic/blob/output/github-snake-dark.svg" alt="Snake GIF">
+      <div style="align-items: center;">  
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+          <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+        </picture>
     </div>
 </body>
 </html>
