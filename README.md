@@ -58,3 +58,17 @@
 </body>
 </html>
 
+## 🎯 Current Projects
+
+🔹 Graduation Project:
+
+  🚀 Investigating Public Perception of COVID-19 Vaccines through Twitter-Based Sentiment Analysis (Hybrid ML Approach)
+
+🔹 PharmaCare:
+
+  📱 Developing a e-pharmacy website using REACT and SpringBoot
+
+🔹 CounselHub:
+
+  ⚖️ Building a responsive, user-friendly law firm information website with client & admin features
+
