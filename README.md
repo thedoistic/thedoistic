@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Profile Layout (HTML Only)</title>
 </head>
 <body 
-  bgcolor="#0f0c29"     <!-- Basic background color (no gradient) -->
-  text="#ffffff"        <!-- Text color -->
+  bgcolor="#0f0c29"  <!-- Dark background color -->
+  text="#ffffff"     <!-- White text color -->
 >
 
+<!-- Center the entire content -->
 <center>
-  <!-- Outer table simulating a "container" -->
+
+  <!-- Outer table for overall layout -->
   <table 
     border="2" 
     bordercolor="#39FF14"
-    cellspacing="0"
-    cellpadding="10"
+    cellspacing="0" 
+    cellpadding="10" 
     width="90%"
   >
-    <!-- First row: The typing text centered across both columns -->
+    <!-- First row: The typing text (colspan=2) -->
     <tr>
       <td colspan="2" align="center">
         <!-- Typing SVG -->
@@ -29,9 +30,10 @@
         >
       </td>
     </tr>
+    <!-- Second row: Left = Technologies, Right = Smaller GIF -->
     <tr>
-      <!-- LEFT COLUMN: Technologies -->
-      <td width="50%" valign="top">
+      <!-- LEFT COLUMN: Technologies and Tools -->
+      <td width="60%" valign="top">
         <h2 style="color: #39FF14;">Technologies and Tools</h2>
         <p>
           <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
@@ -90,16 +92,18 @@
           </a>
         </p>
       </td>
-      <!-- RIGHT COLUMN: GIF -->
-      <td width="50%" align="center" valign="top">
+      <!-- RIGHT COLUMN: Smaller GIF -->
+      <td width="40%" align="center" valign="top">
         <img 
           src="https://github.com/user-attachments/assets/8b12266a-513f-4b61-9a6f-d50a334746dd"
           alt="Nft Coding GIF"
           border="4"
+          width="250"
         >
       </td>
     </tr>
   </table>
+
 </center>
 
 </body>
